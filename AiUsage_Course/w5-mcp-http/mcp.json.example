@@ -1,0 +1,8 @@
+{
+  "_note": "W5 目标：Streamable HTTP。本机尚无 ~/.workbuddy/mcp.json，url 字段是否为 WorkBuddy 支持的写法需进 W5 时按官方文档核对一次（标为推断）。stdio 版本见 mcp.stdio.example.json。",
+  "mcpServers": {
+    "ml-notes-mcp": {
+      "url": "http://127.0.0.1:8000/mcp"
+    }
+  }
+}

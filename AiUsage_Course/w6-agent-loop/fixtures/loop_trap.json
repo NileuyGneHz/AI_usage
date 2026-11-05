@@ -1,0 +1,152 @@
+[
+  {
+    "content": "我再查一次确认。",
+    "tool_calls": [
+      {
+        "id": "call_1",
+        "type": "function",
+        "function": {
+          "name": "search_notes",
+          "arguments": "{\"query\": \"正规方程\", \"k\": 3}"
+        }
+      }
+    ],
+    "prompt_tokens": 1800,
+    "completion_tokens": 80
+  },
+  {
+    "content": "我再查一次确认。",
+    "tool_calls": [
+      {
+        "id": "call_2",
+        "type": "function",
+        "function": {
+          "name": "search_notes",
+          "arguments": "{\"query\": \"Normal Equation\", \"k\": 3}"
+        }
+      }
+    ],
+    "prompt_tokens": 1800,
+    "completion_tokens": 80
+  },
+  {
+    "content": "我再查一次确认。",
+    "tool_calls": [
+      {
+        "id": "call_3",
+        "type": "function",
+        "function": {
+          "name": "search_notes",
+          "arguments": "{\"query\": \"正规方程 推导\", \"k\": 3}"
+        }
+      }
+    ],
+    "prompt_tokens": 1800,
+    "completion_tokens": 80
+  },
+  {
+    "content": "我再查一次确认。",
+    "tool_calls": [
+      {
+        "id": "call_4",
+        "type": "function",
+        "function": {
+          "name": "search_notes",
+          "arguments": "{\"query\": \"正规方程\", \"k\": 3}"
+        }
+      }
+    ],
+    "prompt_tokens": 1800,
+    "completion_tokens": 80
+  },
+  {
+    "content": "我再查一次确认。",
+    "tool_calls": [
+      {
+        "id": "call_5",
+        "type": "function",
+        "function": {
+          "name": "search_notes",
+          "arguments": "{\"query\": \"正规方程 例子\", \"k\": 3}"
+        }
+      }
+    ],
+    "prompt_tokens": 1800,
+    "completion_tokens": 80
+  },
+  {
+    "content": "我再查一次确认。",
+    "tool_calls": [
+      {
+        "id": "call_6",
+        "type": "function",
+        "function": {
+          "name": "search_notes",
+          "arguments": "{\"query\": \"正规方程 优缺点\", \"k\": 3}"
+        }
+      }
+    ],
+    "prompt_tokens": 1800,
+    "completion_tokens": 80
+  },
+  {
+    "content": "我再查一次确认。",
+    "tool_calls": [
+      {
+        "id": "call_7",
+        "type": "function",
+        "function": {
+          "name": "search_notes",
+          "arguments": "{\"query\": \"正规方程\", \"k\": 3}"
+        }
+      }
+    ],
+    "prompt_tokens": 1800,
+    "completion_tokens": 80
+  },
+  {
+    "content": "我再查一次确认。",
+    "tool_calls": [
+      {
+        "id": "call_8",
+        "type": "function",
+        "function": {
+          "name": "search_notes",
+          "arguments": "{\"query\": \"正规方程 不可逆\", \"k\": 3}"
+        }
+      }
+    ],
+    "prompt_tokens": 1800,
+    "completion_tokens": 80
+  },
+  {
+    "content": "我再查一次确认。",
+    "tool_calls": [
+      {
+        "id": "call_9",
+        "type": "function",
+        "function": {
+          "name": "search_notes",
+          "arguments": "{\"query\": \"正规方程\", \"k\": 3}"
+        }
+      }
+    ],
+    "prompt_tokens": 1800,
+    "completion_tokens": 80
+  },
+  {
+    "content": "我再查一次确认。",
+    "tool_calls": [
+      {
+        "id": "call_10",
+        "type": "function",
+        "function": {
+          "name": "search_notes",
+          "arguments": "{\"query\": \"正规方程\", \"k\": 3}"
+        }
+      }
+    ],
+    "prompt_tokens": 1800,
+    "completion_tokens": 80
+  }
+]

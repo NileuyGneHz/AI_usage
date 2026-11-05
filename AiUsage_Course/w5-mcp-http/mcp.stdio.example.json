@@ -1,0 +1,12 @@
+{
+  "_note": "压缩方案（W4+W5 合并、只做 stdio）用这一份。command 必须用绝对路径指向 venv 里的 python，否则 server 起不来。",
+  "mcpServers": {
+    "ml-notes-mcp": {
+      "command": "/home/nileuy/Algothrim_proj/AiUsage_Course/w4-mcp-stdio/.venv/bin/python",
+      "args": ["/home/nileuy/Algothrim_proj/AiUsage_Course/w4-mcp-stdio/server/server.py"],
+      "env": {
+        "NOTES_DIR": "/home/nileuy/Algothrim_proj/ml-course/Coursera-ML-AndrewNg-Notes/markdown"
+      }
+    }
+  }
+}

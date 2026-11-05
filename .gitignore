@@ -1,0 +1,32 @@
+# 宿主状态（只保留 skills）
+.workbuddy/*
+!.workbuddy/skills/
+
+# 依赖与缓存
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# 密钥与环境
+.env
+.env.*
+!.env.example
+
+# 第三方正文（dbskill 许可证 4.1 / 4.4）
+vendor/*
+!vendor/.gitkeep
+
+# 设计稿（含中文文件名，不入库；本机自留）
+AI_usage_repo_design/
+
+# 上游课程语料副本：自带 .git，若入库会被收成悬空 gitlink；本机自留
+# 上游：https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes
+ml-course/Coursera-ML-AndrewNg-Notes/
+
+# 系统噪声
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp

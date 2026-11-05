@@ -1,0 +1,38 @@
+[
+  {
+    "content": "",
+    "tool_calls": [
+      {
+        "id": "call_1",
+        "type": "function",
+        "function": {
+          "name": "search_notes",
+          "arguments": "{\"query\": \"正规方程\", \"k\": 2}"
+        }
+      }
+    ],
+    "prompt_tokens": 720,
+    "completion_tokens": 38
+  },
+  {
+    "content": "",
+    "tool_calls": [
+      {
+        "id": "call_2",
+        "type": "function",
+        "function": {
+          "name": "read_section",
+          "arguments": "{\"path\": \"week2.md\", \"start_line\": 146, \"end_line\": 175}"
+        }
+      }
+    ],
+    "prompt_tokens": 980,
+    "completion_tokens": 45
+  },
+  {
+    "content": "正规方程通过令导数等于零直接求解参数：θ = (XᵀX)⁻¹Xᵀy。\n\n优点：不需要选择学习率、不需要迭代；缺点：特征数很大时矩阵求逆代价高（O(n³)），且 XᵀX 可能不可逆。\n\n来源：week2.md:146-204",
+    "tool_calls": [],
+    "prompt_tokens": 1620,
+    "completion_tokens": 96
+  }
+]

@@ -1,0 +1,19 @@
+upstream:
+  repo: https://github.com/dontbesilent2025/dbskill
+  pinned_version: 3.2.3
+  license_checked: 2026-11-05
+  local_path: vendor/dbskill   # 相对仓库根 /home/nileuy/Algothrim_proj；被 .gitignore 忽略
+policy:
+  commit_original_files: false
+  publish_modified_version: false
+  quote_original_text: false
+  share_link_allowed: true
+dependencies:
+  shared: [shared/manifest.json, shared/references/]
+adapters:
+  - name: biz-problem-reframing
+    targets: [dbs-diagnosis, dbs-good-question]
+  - name: biz-jtbd
+    targets: [dbs-jtbd]
+  - name: biz-benchmark
+    targets: [dbs-benchmark]

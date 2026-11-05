@@ -1,0 +1,4 @@
+# 锁版本。mcp 2.x 把 FastMCP 改名成了 MCPServer，不锁版本会导致抄来的示例直接 ImportError。
+# 国内网络直连 pypi 可能超时，装的时候可以加镜像：
+#   .venv/bin/pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+mcp>=2,<3
